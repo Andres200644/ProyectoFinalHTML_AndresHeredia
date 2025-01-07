@@ -1,0 +1,166 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url("../HorizonTravels/assets/fondo\ de\ pantalla.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    /* Otros estilos de fondo según tus preferencias */
+}
+
+h1 {
+    color: rgb(7, 5, 136);
+    text-align: center;
+}
+
+.map {
+    width: 80px; /* Ajusta este valor para cambiar el ancho del mapa */
+    height: 80px; /* Ajusta este valor para cambiar la altura del mapa */
+    margin: 0 auto; /* Centra el mapa horizontalmente */
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 80px; /* Ajusta este valor para cambiar el tamaño de los íconos */
+    height: 80px; /* Asegúrate de que este valor sea el mismo que el de 'width' para mantener los íconos proporcionales */
+}
+nav img {
+    border-radius: 70%; /* Esto hace que la imagen sea circular */
+    width: 70px; /* Ajusta este valor para cambiar el tamaño del logo */
+    height: 70px; /* Asegúrate de que este valor sea el mismo que el de 'width' para mantener el logo proporcional */
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3f3f3; /* Color de fondo claro */
+    background-image: image("../assets/fondo de pantalla.jpg");
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff; /* Color de fondo blanco */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Sombra para darle profundidad */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333; /* Color de texto oscuro */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333333; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #0026ff;
+}
+
+img::after {
+    content: "";
+    color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #0e0bc9;
+}
+
+footer img {
+    border: none;
+}
+
+
+img::after {
+    content: "";
+    color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #0aaab6;
+}
+
+footer img, nav img {
+    border: none;
+}
+
+img::after {
+    content: "";
+    color: black;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    display: inline-block;
+    width: 500px; /* Cambia este valor al tamaño que prefieras */
+    height: auto;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+  nav h1 {
+    color: #0000FF; /* Azul fuerte */
+  }
+  
+  main h1 {
+    color: #008000; /* Verde fuerte */
+  }
+
+  main h3{
+    color: #006d80; /* Verde fuerte */
+  }
+    
